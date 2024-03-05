@@ -31,3 +31,6 @@
 /config/master.key
 /config/database.yml
 /test/*
+
+.vscode/
+.rubocop.yml
