@@ -13,3 +13,13 @@ vi:
   text_5: "Đây là trang chủ dành cho"
   text_6: "Hướng dẫn Ruby on Rails"
   text_7: "ứng dụng mẫu"
+  sign_up: "Đăng ký"
+  create_my_account: "Tạo tài khoản của tôi"
+  name: "Tên"
+  password: "Mật khẩu"
+  confirmation: "Xác nhận mật khẩu"
+  errors:
+    save_user_message: "Tạo tài khoản thành công"
+    the_form_contains: "Biểu mẫu chứa"
+    error: "lỗi"
+    not_found_user: "Không tìm thấy người dùng!"
