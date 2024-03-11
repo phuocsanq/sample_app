@@ -13,3 +13,8 @@ vi:
   text_5: "Đây là trang chủ dành cho"
   text_6: "Hướng dẫn Ruby on Rails"
   text_7: "ứng dụng mẫu"
+  sign_up: "Đăng ký"
+  create_my_account: "Tạo tài khoản của tôi"
+  name: "Tên"
+  password: "Mật khẩu"
+  confirmation: "Xác nhận mật khẩu"
