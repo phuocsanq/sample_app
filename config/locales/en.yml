@@ -13,3 +13,13 @@ en:
   text_5: "This is the home page for the"
   text_6: "Ruby onRails Tutorial"
   text_7: "sample application"
+  sign_up: "Sign up"
+  create_my_account: "Create my account"
+  name: "Name"
+  password: "Password"
+  confirmation: "Confirmation"
+  errors:
+    save_user_message: "User created successful"
+    the_form_contains: "The Form Contains"
+    error: "errors"
+    not_found_user: "Not found user!"
