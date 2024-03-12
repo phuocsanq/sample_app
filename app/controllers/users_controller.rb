@@ -14,8 +14,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      # Handle a successful save.
-      flash[:success] = t("errors.save_user_message")
+      reset_session
+      log_in @user
+      flash[:success] = t("messages.sign_up_success")
       redirect_to @user, status: :see_other
     else
       render :new, status: :unprocessable_entity
