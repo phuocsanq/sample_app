@@ -86,3 +86,22 @@ input, textarea, select, .uneditable-input {
 input {
     height: auto !important;
 }
+
+/* Dropdown menu */
+
+.dropdown-menu.active {
+    display: block;
+}
+
+/* buttons */
+button.btn.logout{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    text-align: left;
+    padding: 3px 20px;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+}
