@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
   def create
     reset_session
     log_in @user
+    params.dig(:session, :remember_me) == "1" ? remember(@user) : forget(@user)
     redirect_to @user, status: :see_other
   end
 

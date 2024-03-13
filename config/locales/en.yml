@@ -24,6 +24,7 @@ en:
   account: "Account"
   profile: "Profile"
   settings: "Settings"
+  remember_me: "Remember me on this computer"
   errors:
     the_form_contains: "The Form Contains"
     error: "errors"
