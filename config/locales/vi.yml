@@ -24,6 +24,7 @@ vi:
   account: "Tài khoản"
   profile: "Trang cá nhân"
   settings: "Cài đặt"
+  remember_me: "Ghi nhớ tôi trên máy tính này"
   errors:
     the_form_contains: "Biểu mẫu chứa"
     error: "lỗi"
