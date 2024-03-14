@@ -5,10 +5,11 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
+    forwarding_url = session[:forwarding_url]
     reset_session
     log_in @user
     params.dig(:session, :remember_me) == "1" ? remember(@user) : forget(@user)
-    redirect_to @user, status: :see_other
+    redirect_to forwarding_url || @user
   end
 
   def destroy
